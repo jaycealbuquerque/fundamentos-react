@@ -1,0 +1,19 @@
+.button {
+  position: relative;
+  float: right;
+  width: 25%;
+  height: 45px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #8052ec;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button:hover {
+  filter: brightness(0.8);
+  transition: filter 0.2s;
+}
